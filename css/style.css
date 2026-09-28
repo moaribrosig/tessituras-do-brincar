@@ -1036,7 +1036,11 @@ a {
 @media (max-width: 700px) {
   /* deixa a régua livre do botão flutuante de WhatsApp */
   .rodape__regua {
-    padding: 20px 12px 100px;
+    padding: 20px 16px 100px;
+  }
+
+  .rodape__regua img {
+    width: min(100%, 420px);
   }
 }
 
