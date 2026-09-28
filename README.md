@@ -15,7 +15,7 @@ Site estático (HTML, CSS e JavaScript puro), publicado pelo GitHub Pages em **h
 | Camadas da abertura | `assets/hero/` (ver abaixo) |
 | Fotos dos docentes | `assets/img/docentes/` + campo `foto` do docente em `js/data.js` |
 | Fotos dos módulos | `assets/img/modulos/` + lista `fotos` do módulo em `js/data.js` |
-| Régua de logos | `assets/logos/` + trocar o bloco `regua-provisoria` no `index.html` |
+| Régua de logos (assinatura) | `assets/logos/regua.webp` (versão colorida sobre creme #FDECE1, do designer) |
 
 ## Abertura (cortejo de crochê)
 
@@ -47,7 +47,7 @@ O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, s
 
 ## Depois de editar CSS ou JS
 
-No `index.html`, aumente o número de versão (`?v=6` → `?v=7`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+No `index.html`, aumente o número de versão (`?v=7` → `?v=8`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
 
 ## Ver localmente
 

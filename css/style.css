@@ -999,7 +999,7 @@ a {
 .rodape {
   background: var(--tinta);
   color: var(--papel);
-  padding: 70px 0 40px;
+  padding: 70px 0 0;
 }
 
 .rodape__grade {
@@ -1019,25 +1019,25 @@ a {
   margin: 0 0 8px;
 }
 
-.rodape__logos {
-  margin-top: 40px;
-  padding-top: 30px;
-  border-top: 1px solid rgba(246, 239, 228, 0.2);
+/* Régua de logos na versão colorida, sobre o mesmo creme do arquivo do designer */
+.rodape__regua {
+  margin-top: 56px;
+  padding: 26px 20px;
+  background: #fdece1;
 }
 
-.rodape__credito {
-  font-size: 0.85rem;
-  opacity: 0.8;
+.rodape__regua img {
+  display: block;
+  width: min(100%, var(--largura));
+  height: auto;
+  margin: 0 auto;
 }
 
-.regua-provisoria {
-  margin-top: 18px;
-  padding: 22px;
-  border: 1px dashed rgba(246, 239, 228, 0.4);
-  border-radius: 10px;
-  text-align: center;
-  font-size: 0.85rem;
-  opacity: 0.6;
+@media (max-width: 700px) {
+  /* deixa a régua livre do botão flutuante de WhatsApp */
+  .rodape__regua {
+    padding: 20px 12px 100px;
+  }
 }
 
 /* ---------- WhatsApp flutuante ---------- */
