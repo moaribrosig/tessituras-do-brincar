@@ -2,7 +2,7 @@
 
 Site da formação **Tessituras do brincar: dos quintais às ruas**, realizada pela Guaimbê no Ponto de Cultura Quintal da Aldeia (Pirenópolis/GO), com recursos da PNAB via Secult Goiás.
 
-Site estático (HTML, CSS e JavaScript puro), publicado pelo GitHub Pages. Não precisa de instalação nem de build.
+Site estático (HTML, CSS e JavaScript puro), publicado pelo GitHub Pages em **https://tessituras.guaimbe.org.br** (subdomínio da Guaimbê: registro CNAME `tessituras` → `moaribrosig.github.io` no DNS da HostGator). Não precisa de instalação nem de build.
 
 ## Onde mexer
 
