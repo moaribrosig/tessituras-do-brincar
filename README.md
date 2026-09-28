@@ -17,19 +17,25 @@ Site estático (HTML, CSS e JavaScript puro), publicado pelo GitHub Pages em **h
 | Fotos dos módulos | `assets/img/modulos/` + lista `fotos` do módulo em `js/data.js` |
 | Régua de logos | `assets/logos/` + trocar o bloco `regua-provisoria` no `index.html` |
 
-## Camadas da abertura
+## Abertura (cortejo de crochê)
 
-As imagens em `assets/hero/` são provisórias. Para trocar pela arte final, salve com o **mesmo nome de arquivo** (pode ser `.svg`, ou `.png` com fundo transparente, ajustando a extensão no `index.html`):
+A arte vem do designer (pasta "Moari"): fundo vinho, chão de linho com cordão verde e bonecos de crochê.
 
-| Arquivo | O que é | Posição |
-|---|---|---|
-| `mandala.svg` | Mandala humana (sol da paisagem e favicon) | fundo, gira devagar |
-| `serra-fundo.svg` | Serra mais distante | fundo |
-| `serra-frente.svg` | Serra mais próxima | meio |
-| `casario.svg` | Casario e Igreja Matriz | frente |
-| `quintal.svg` | Plantas do quintal, primeiro plano | mais à frente |
+| Arquivo | O que é |
+|---|---|
+| `assets/img/textura/vinho.webp`, `linho.webp` | Texturas do fundo e do chão (também usadas nas faixas entre seções) |
+| `assets/img/textura/flores.png`, `flor.png`, `ondas.png` | Flores bordadas e ondas verdes recortadas do fundo |
+| `assets/hero/chao-mascara.svg` | Formato ondulado do chão (o mesmo desenho está no cordão verde do `index.html`) |
+| `assets/hero/mandala.svg` | Mandala humana, girando bem clarinha atrás do título |
+| `assets/hero/cortejo/*.webp` | Poses de cada boneco, já alinhadas entre si |
 
-O atributo `data-velocidade` no `index.html` controla o quanto cada camada se move na rolagem: perto de 0 fica parada ao fundo, 1 acompanha a página.
+Cada boneco é um `<span class="boneco">` no `index.html`:
+
+- `data-quadros`: lista das poses (nomes dos arquivos em `assets/hero/cortejo/`, sem `.webp`), trocadas como animação quadro a quadro;
+- `data-ritmo`: tempo de cada pose em milissegundos (sem ele, o boneco fica numa pose só e só balança);
+- `--altura`: tamanho relativo do boneco no cortejo.
+
+Para incluir um boneco novo, gere as poses com o mesmo alinhamento (mesmo tamanho de imagem, pés na base) e acrescente um `<span>`. O atributo `data-velocidade` das camadas controla o quanto cada uma se move na rolagem: perto de 0 fica parada ao fundo, 1 acompanha a página.
 
 ## Inscrição por módulo
 
@@ -41,7 +47,7 @@ O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, s
 
 ## Depois de editar CSS ou JS
 
-No `index.html`, aumente o número de versão (`?v=3` → `?v=4`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+No `index.html`, aumente o número de versão (`?v=6` → `?v=7`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
 
 ## Ver localmente
 

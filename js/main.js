@@ -196,6 +196,44 @@
       : "https://ig.me/m/quintaldaldeia";
   }
 
+  // Bonecos de crochê: cada um tem uma sequência de poses (data-quadros) que se
+  // alternam como animação quadro a quadro; o grupo é repetido para o cortejo
+  // atravessar a tela sem emendas.
+  function iniciarCortejo() {
+    const hero = document.querySelector(".hero");
+    const grupo = hero.querySelector(".cortejo__grupo");
+    if (!grupo) return;
+
+    grupo.querySelectorAll(".boneco").forEach((boneco) => {
+      boneco.innerHTML = boneco.dataset.quadros
+        .split(",")
+        .map((q, i) => `<img src="assets/hero/cortejo/${q.trim()}.webp" alt=""${i === 0 ? ' class="ativo"' : ""} />`)
+        .join("");
+    });
+    const faixa = grupo.parentElement;
+    faixa.append(grupo.cloneNode(true), grupo.cloneNode(true));
+
+    if (reduzirMovimento) return;
+
+    let visivel = true;
+    new IntersectionObserver(([entrada]) => {
+      visivel = entrada.isIntersecting;
+      hero.classList.toggle("hero--parado", !visivel);
+    }).observe(hero);
+
+    faixa.querySelectorAll(".boneco[data-ritmo]").forEach((boneco, n) => {
+      const quadros = boneco.querySelectorAll("img");
+      let atual = n % quadros.length;
+      quadros.forEach((q, i) => q.classList.toggle("ativo", i === atual));
+      setInterval(() => {
+        if (!visivel) return;
+        quadros[atual].classList.remove("ativo");
+        atual = (atual + 1) % quadros.length;
+        quadros[atual].classList.add("ativo");
+      }, parseInt(boneco.dataset.ritmo, 10));
+    });
+  }
+
   function iniciarParallax() {
     if (reduzirMovimento) return;
     const hero = document.querySelector(".hero");
@@ -265,6 +303,7 @@
   renderDocentes();
   renderInscricoes();
   preencherContatos();
+  iniciarCortejo();
   iniciarParallax();
   iniciarTopo();
   iniciarRevelar();
