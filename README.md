@@ -39,6 +39,10 @@ Cada botão abre o mesmo Google Forms já com o módulo marcado. O campo `formOp
 
 O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, só quem for selecionado entra no grupo. Enquanto estiver vazio, o site avisa que o link chega por e-mail. Preencha só se a coordenação decidir divulgar o link publicamente.
 
+## Depois de editar CSS ou JS
+
+No `index.html`, aumente o número de versão (`?v=3` → `?v=4`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+
 ## Ver localmente
 
 ```bash

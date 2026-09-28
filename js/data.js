@@ -10,6 +10,7 @@ const FORM_MODULE_FIELD = "entry.2095860727";
 
 const CONFIG = {
   formUrl: FORM_URL,
+  site: "https://guaimbe.org.br/",
   instagram: "https://www.instagram.com/quintaldaldeia/",
   email: "guaimbe@guaimbe.org.br",
   // Número de atendimento no formato 55 + DDD + número, só dígitos (ex.: "5562999999999").

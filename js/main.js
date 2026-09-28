@@ -187,6 +187,7 @@
     email.href = "mailto:" + CONFIG.email;
     email.textContent = CONFIG.email;
     document.getElementById("link-instagram").href = CONFIG.instagram;
+    document.getElementById("link-site").href = CONFIG.site;
 
     const zap = document.getElementById("whatsapp-flutuante");
     zap.href = CONFIG.whatsapp
