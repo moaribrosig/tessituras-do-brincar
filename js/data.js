@@ -106,7 +106,8 @@ const DOCENTES = {
   },
 };
 
-// As cores são provisórias até a paleta oficial do Morcego chegar.
+// Cores provisórias, em harmonia com a logo (azul, creme e ocre), até o Morcego
+// definir a cor oficial de cada módulo. A primeira foto de cada lista vira a capa.
 const MODULOS = [
   {
     numero: 1,
@@ -115,7 +116,7 @@ const MODULOS = [
     tituloCurto: "Formação de Coletivos",
     datas: "06 a 08 de novembro de 2026",
     datasCurtas: "06–08 nov 2026",
-    cor: "#B5522B",
+    cor: "#9C6415",
     resumo:
       "Um mergulho nas raízes e na cosmovisão que sustentam as práticas artísticas contemporâneas. O objetivo é formar brincantes-multiplicadores, capazes de levar a cultura popular ancestral para suas comunidades e coletivos.",
     turnos: [
@@ -126,7 +127,7 @@ const MODULOS = [
     ],
     publico: "Artistas, agentes culturais e brincantes populares; membros de grupos de música, dança e comunidades quilombolas, indígenas ou tradicionais; estudantes de música, dança e artes.",
     docentes: ["daraina", "noel", "celso", "terena", "manu"],
-    fotos: [],
+    fotos: ["assets/img/modulos/m1-01.jpg"],
     formOption: "Módulo 1: de 06 a 08/11/26 - Formação e Manutenção de grupos e coletivos culturais e artísticos",
     whatsappGrupo: "",
   },
@@ -138,7 +139,7 @@ const MODULOS = [
     tituloCurto: "Carnaval de Rua RJ",
     datas: "11 a 13 de dezembro de 2026",
     datasCurtas: "11–13 dez 2026",
-    cor: "#C98A1E",
+    cor: "#B8492C",
     resumo:
       "Um intercâmbio direto com a tradição das escolas de samba e dos blocos do Rio de Janeiro. A turma monta uma bateria de rua, aprende seus arranjos e convenções e coloca o sotaque carioca em diálogo com o sotaque goiano.",
     turnos: [
@@ -149,7 +150,7 @@ const MODULOS = [
     ],
     publico: "Artistas, agentes culturais, músicos e ritmistas; interessados em percussão, bateria de rua, ritmos afro-brasileiros, arranjos e regência de cortejo.",
     docentes: ["lele", "noel"],
-    fotos: [],
+    fotos: ["assets/img/modulos/m2-01.jpg"],
     formOption: "Módulo 2 : de 11 a 13/12/26  - O carnaval de rua do Rio de Janeiro",
     whatsappGrupo: "",
   },
@@ -173,7 +174,7 @@ const MODULOS = [
     publico: "Artistas e agentes culturais; membros de grupos de música, dança e cultura popular; comunidades quilombolas, indígenas ou tradicionais; estudantes e professores de música, dança e artes.",
     docentes: ["tiao"],
     apoio: "Com o apoio dos brincantes do Boi do Rosário.",
-    fotos: [],
+    fotos: ["assets/img/modulos/m3-ilustra-boi.jpg"],
     formOption: "Módulo 3 : de 05 a 07/03/27  - Matriz maranhense",
     whatsappGrupo: "",
   },
@@ -185,7 +186,7 @@ const MODULOS = [
     tituloCurto: "Cultura Popular e Tradição",
     datas: "02 a 04 de abril de 2027",
     datasCurtas: "02–04 abr 2027",
-    cor: "#5E7B3A",
+    cor: "#4F6E2E",
     resumo:
       "O encontro entre o que a tradição preserva e o que a cultura popular transforma. Um mergulho nas caixas de folia, nos couros e na transmissão oral dos saberes goianos.",
     turnos: [
@@ -196,7 +197,7 @@ const MODULOS = [
     ],
     publico: "Artistas, agentes culturais e membros de grupos de música, dança e cultura popular; comunidades quilombolas, indígenas ou tradicionais; estudantes e professores de música, dança e artes.",
     docentes: ["noel", "celso", "bine", "manu", "florDePequi"],
-    fotos: [],
+    fotos: ["assets/img/modulos/m4-01.jpg", "assets/img/modulos/m4-02.jpg", "assets/img/modulos/m4-03.jpg"],
     formOption: "Módulo 4 : 02 a 04/04/27 - Diálogo entre cultura popular e tradição",
     whatsappGrupo: "",
   },
@@ -208,7 +209,7 @@ const MODULOS = [
     tituloCurto: "Samba de Roda",
     datas: "30 de abril a 02 de maio de 2027",
     datasCurtas: "30 abr–02 mai 2027",
-    cor: "#7A4A2A",
+    cor: "#7A4428",
     resumo:
       "Da história à roda: a origem africana do samba de roda, sua evolução, sua importância social no Brasil e sua chegada a Goiás, vividas na prática com os guardiões da Serrinha.",
     turnos: [
@@ -219,7 +220,7 @@ const MODULOS = [
     ],
     publico: "Músicos, dançarinos, capoeiristas, professores e estudantes da área cultural; interessados em cultura afro-brasileira; membros de comunidades quilombolas, indígenas ou tradicionais.",
     docentes: ["goyano", "antonia"],
-    fotos: [],
+    fotos: ["assets/img/modulos/m5-01.jpg", "assets/img/modulos/m5-02.jpg"],
     formOption: "Módulo 5 : 30/04 a 02/05/27  - O samba de roda",
     whatsappGrupo: "",
   },
@@ -230,7 +231,7 @@ const MODULOS = [
     tituloCurto: "Gestão, Acessibilidade e Cortejo",
     datas: "04 a 06 de junho de 2027",
     datasCurtas: "04–06 jun 2027",
-    cor: "#2F5D7C",
+    cor: "#2B5883",
     resumo:
       "O módulo de encerramento instrumentaliza os participantes para a gestão e a sustentabilidade dos seus coletivos, com estratégias práticas de acessibilidade e inclusão, e termina num cortejo pelas ruas do Alto do Bonfim.",
     turnos: [
@@ -242,7 +243,7 @@ const MODULOS = [
     ],
     publico: "Artistas, agentes culturais, produtores e gestores de projetos culturais; membros de grupos de música, dança e cultura popular; comunidades quilombolas, indígenas ou tradicionais.",
     docentes: ["daraina", "noel", "karla"],
-    fotos: [],
+    fotos: ["assets/img/modulos/m6-ilustra-acessibilidade.jpg"],
     formOption: "Módulo 6 : 04 a 06/06/27 - Gestão de coletivos, acessibilidade e produção de eventos",
     whatsappGrupo: "",
   },
