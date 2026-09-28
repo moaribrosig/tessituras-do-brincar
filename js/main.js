@@ -57,7 +57,8 @@
         : `<p class="galeria__vazia">As fotos deste módulo aparecem aqui depois do encontro.</p>`;
 
       const grupo = m.whatsappGrupo
-        ? `<a class="botao botao--contorno" href="${escapar(m.whatsappGrupo)}" target="_blank" rel="noopener">Grupo do WhatsApp do módulo</a>`
+        ? `<a class="botao botao--whatsapp" href="${escapar(m.whatsappGrupo)}" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a>
+           <p class="detalhes__nota">A entrada no grupo é aprovada pela equipe para quem foi selecionado no módulo.</p>`
         : `<p class="detalhes__nota">Quem for selecionado recebe por e-mail o link do grupo de WhatsApp deste módulo.</p>`;
 
       return `

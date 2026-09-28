@@ -687,6 +687,17 @@ a {
   color: var(--branco);
 }
 
+.detalhes__rodape .botao--whatsapp {
+  background: #1e8f4e;
+  border-color: #1e8f4e;
+  color: #fff;
+}
+
+.detalhes__rodape .botao--whatsapp:hover {
+  background: #177540;
+  border-color: #177540;
+}
+
 .detalhes__nota {
   margin: 0;
   font-size: 0.95rem;

@@ -130,7 +130,7 @@ const MODULOS = [
     docentes: ["daraina", "noel", "celso", "terena", "manu"],
     fotos: ["assets/img/modulos/m1-01.jpg"],
     formOption: "Módulo 1: de 06 a 08/11/26 - Formação e Manutenção de grupos e coletivos culturais e artísticos",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/CMhF2TySvSIEyA2Bg538ap",
   },
   {
     numero: 2,
@@ -153,7 +153,7 @@ const MODULOS = [
     docentes: ["lele", "noel"],
     fotos: ["assets/img/modulos/m2-01.jpg"],
     formOption: "Módulo 2 : de 11 a 13/12/26  - O carnaval de rua do Rio de Janeiro",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/InGUiQ4kzySLlS29ipBzve",
   },
   {
     numero: 3,
@@ -177,7 +177,7 @@ const MODULOS = [
     apoio: "Com o apoio dos brincantes do Boi do Rosário.",
     fotos: ["assets/img/modulos/m3-ilustra-boi.jpg"],
     formOption: "Módulo 3 : de 05 a 07/03/27  - Matriz maranhense",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/IqqZ4kSjgEDG2xDJ4QBzgQ",
   },
   {
     numero: 4,
@@ -200,7 +200,7 @@ const MODULOS = [
     docentes: ["noel", "celso", "bine", "manu", "florDePequi"],
     fotos: ["assets/img/modulos/m4-01.jpg", "assets/img/modulos/m4-02.jpg", "assets/img/modulos/m4-03.jpg"],
     formOption: "Módulo 4 : 02 a 04/04/27 - Diálogo entre cultura popular e tradição",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/DhatdcAkeFb3HvBdHNcTn3",
   },
   {
     numero: 5,
@@ -223,7 +223,7 @@ const MODULOS = [
     docentes: ["goyano", "antonia"],
     fotos: ["assets/img/modulos/m5-01.jpg", "assets/img/modulos/m5-02.jpg"],
     formOption: "Módulo 5 : 30/04 a 02/05/27  - O samba de roda",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/G5bi93bJXvrK8vMVYkqdPU",
   },
   {
     numero: 6,
@@ -246,6 +246,6 @@ const MODULOS = [
     docentes: ["daraina", "noel", "karla"],
     fotos: ["assets/img/modulos/m6-ilustra-acessibilidade.jpg"],
     formOption: "Módulo 6 : 04 a 06/06/27 - Gestão de coletivos, acessibilidade e produção de eventos",
-    whatsappGrupo: "",
+    whatsappGrupo: "https://chat.whatsapp.com/Dnw0dGBcXMY5VbM7oioQcH",
   },
 ];
