@@ -47,7 +47,7 @@ O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, s
 
 ## Depois de editar CSS ou JS
 
-No `index.html`, aumente o número de versão (`?v=9` → `?v=10`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+No `index.html`, aumente o número de versão (`?v=10` → `?v=11`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
 
 ## Ver localmente
 
