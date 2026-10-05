@@ -77,13 +77,6 @@ const DOCENTES = {
     bio: "Convidado especial, trazendo a vivência direta da tradição oral goiana a partir da Congada de Nerópolis.",
     foto: "assets/img/docentes/bine.webp",
   },
-  florDePequi: {
-    nome: "Caixeiras da Flor de Pequi",
-    instagram: "flor.de.pequi.ritos",
-    resumo: "Grupo intergeracional de brincantes de Pirenópolis",
-    bio: "Nascido em Pirenópolis em 2003, é um grupo intergeracional de brincantes populares que revitaliza a prática do brincar com rodas de dança, brincadeiras e contação de histórias.",
-    foto: "",
-  },
   goyano: {
     nome: "Mestre Goyano",
     instagram: "mestregoyano",
@@ -204,7 +197,8 @@ const MODULOS = [
       { quando: "Domingo · 9h às 13h", tema: "Pontes Rítmicas", texto: "A tradição oral dos quintais culturais e a transmissão de saberes entre gerações." },
     ],
     publico: "Artistas, agentes culturais e membros de grupos de música, dança e cultura popular; comunidades quilombolas, indígenas ou tradicionais; estudantes e professores de música, dança e artes.",
-    docentes: ["noel", "celso", "bine", "manu", "florDePequi"],
+    docentes: ["noel", "celso", "bine", "manu"],
+    apoio: "Com a participação das Caixeiras da Flor de Pequi (@flor.de.pequi.ritos), grupo intergeracional de brincantes de Pirenópolis.",
     fotos: ["assets/img/modulos/m4-01.jpg", "assets/img/modulos/m4-02.jpg", "assets/img/modulos/m4-03.jpg"],
     formOption: "Módulo 4 : 02 a 04/04/27 - Diálogo entre cultura popular e tradição",
     whatsappGrupo: "https://chat.whatsapp.com/DhatdcAkeFb3HvBdHNcTn3",
