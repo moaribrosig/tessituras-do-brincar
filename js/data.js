@@ -14,8 +14,9 @@ const CONFIG = {
   instagram: "https://www.instagram.com/quintaldaldeia/",
   email: "guaimbe@guaimbe.org.br",
   // Número de atendimento no formato 55 + DDD + número, só dígitos (ex.: "5562999999999").
-  // Enquanto estiver vazio, o botão flutuante abre o direct do Instagram.
-  whatsapp: "",
+  // Se ficar vazio, o botão flutuante abre o direct do Instagram.
+  whatsapp: "556282813313",
+  whatsappExibicao: "(62) 8281-3313",
   whatsappMessage: "Olá! Quero saber mais sobre o Tessituras do Brincar.",
   endereco: "Rua Pará, qd. 09, APM 4, Residencial Santa Bárbara, Alto do Bonfim, Pirenópolis/GO",
 };

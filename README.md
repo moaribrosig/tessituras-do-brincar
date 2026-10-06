@@ -9,7 +9,7 @@ Site estático (HTML, CSS e JavaScript puro), publicado pelo GitHub Pages em **h
 | Quero mudar... | Arquivo |
 |---|---|
 | Textos, datas, turnos, docentes, links de inscrição, grupos de WhatsApp | `js/data.js` |
-| Número do WhatsApp de atendimento (botão flutuante) | `js/data.js` → `CONFIG.whatsapp` |
+| Número do WhatsApp de atendimento (botão flutuante, rodapé e dúvidas) | `js/data.js` → `CONFIG.whatsapp` (só dígitos) e `CONFIG.whatsappExibicao` (como aparece escrito) |
 | Cores de cada módulo | `js/data.js` → campo `cor` de cada módulo |
 | Cores gerais e fontes | `css/style.css` → bloco `:root` no topo |
 | Camadas da abertura | `assets/hero/` (ver abaixo) |
@@ -47,7 +47,7 @@ O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, s
 
 ## Depois de editar CSS ou JS
 
-No `index.html`, aumente o número de versão (`?v=11` → `?v=12`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+No `index.html`, aumente o número de versão (`?v=12` → `?v=13`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
 
 ## Ver localmente
 

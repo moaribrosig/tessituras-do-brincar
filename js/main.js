@@ -191,9 +191,20 @@
     document.getElementById("link-site").href = CONFIG.site;
 
     const zap = document.getElementById("whatsapp-flutuante");
-    zap.href = CONFIG.whatsapp
+    const linkZap = CONFIG.whatsapp
       ? `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(CONFIG.whatsappMessage)}`
-      : "https://ig.me/m/quintaldaldeia";
+      : "";
+    zap.href = linkZap || "https://ig.me/m/quintaldaldeia";
+
+    // Linhas de contato com o número (rodapé e dúvidas) só aparecem se houver WhatsApp.
+    if (linkZap) {
+      document.querySelectorAll("[data-whatsapp]").forEach((el) => {
+        el.hidden = false;
+        const a = el.querySelector(".link-whatsapp");
+        a.href = linkZap;
+        a.textContent = CONFIG.whatsappExibicao || "+" + CONFIG.whatsapp;
+      });
+    }
   }
 
   // Bonecos de crochê: cada um tem uma sequência de poses (data-quadros) que se

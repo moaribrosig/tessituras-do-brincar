@@ -995,6 +995,17 @@ a {
   color: var(--tinta-suave);
 }
 
+.duvidas__contato {
+  margin: 28px 0 0;
+  color: var(--tinta-suave);
+}
+
+.duvidas__contato a {
+  color: var(--terra);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 /* ---------- Rodapé ---------- */
 .rodape {
   background: var(--tinta);
