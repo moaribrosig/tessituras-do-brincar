@@ -39,8 +39,8 @@ const DOCENTES = {
   celso: {
     nome: "Celso Leal",
     instagram: "",
-    resumo: "Luthier e mestre na construção de instrumentos populares",
-    bio: "Luthier e mestre na construção dos instrumentos de couro e madeira que integram as manifestações populares. Músico e multi-instrumentista.",
+    resumo: "Luthier e mestre na construção de instrumentos musicais populares",
+    bio: "Luthier e mestre na construção dos instrumentos musicais de couro e madeira que integram as manifestações populares. Músico e multi-instrumentista.",
     foto: "assets/img/docentes/celso.webp",
   },
   terena: {
@@ -117,7 +117,7 @@ const MODULOS = [
     turnos: [
       { quando: "Sexta · 19h às 22h30", tema: "Memória, Leitura e Manifestação", texto: "Raízes e tradições transpostas para as manifestações contemporâneas e o diálogo entre as expressões locais e seus territórios de origem." },
       { quando: "Sábado · 8h às 12h", tema: "Identidade Cultural", texto: "Identificação e vivência das diversas heranças culturais praticadas no território." },
-      { quando: "Sábado · 14h às 18h", tema: "A Alma dos Instrumentos Musicais", texto: "Artesania e luthieria popular, com prática percussiva em instrumentos de couro e madeira." },
+      { quando: "Sábado · 14h às 18h", tema: "A Alma dos Instrumentos Musicais", texto: "Artesania e luthieria popular, com prática percussiva em instrumentos musicais de couro e madeira." },
       { quando: "Domingo · 9h às 12h30", tema: "Plasticidade Brincante", texto: "O significado de máscaras e figurinos na construção do brincante popular e da identidade local." },
     ],
     publico: "Artistas, agentes culturais e brincantes populares; membros de grupos de música, dança e comunidades quilombolas, indígenas ou tradicionais; estudantes de música, dança e artes.",
@@ -159,7 +159,7 @@ const MODULOS = [
     datasCurtas: "05–07 mar 2027",
     cor: "#9E2B25",
     resumo:
-      "Ritmos, danças e expressões da cultura maranhense pela experimentação prática: instrumentos tradicionais, movimentação corporal e a polirritmia do bumba-meu-boi, com um dos maiores mestres dessa tradição.",
+      "Ritmos, danças e expressões da cultura maranhense pela experimentação prática: instrumentos musicais tradicionais, movimentação corporal e a polirritmia do bumba-meu-boi, com um dos maiores mestres dessa tradição.",
     turnos: [
       { quando: "Sexta · 19h às 22h", tema: "Introdução à Matriz Maranhense", texto: "Os sotaques do bumba-meu-boi, com foco no sotaque da Baixada: pandeirões, matracas e maracás." },
       { quando: "Sábado · 8h às 12h", tema: "Cacuriá e brincadeiras de caixa", texto: "Os toques de caixa de folia ou do Divino e outras brincadeiras de roda e suas coreografias." },
@@ -193,8 +193,8 @@ const MODULOS = [
       "O encontro entre o que a tradição preserva e o que a cultura popular transforma. Um mergulho nas caixas de folia, nos couros e na transmissão oral dos saberes goianos.",
     turnos: [
       { quando: "Sexta · 19h às 22h", tema: "Manifestações da Tradição Goiana", texto: "As manifestações que usam caixas de folia (ou caixas do Divino) e a riqueza rítmica da tradição." },
-      { quando: "Sábado · 8h às 12h", tema: "Prática de Pandeiros e Caixas de Folia", texto: "Os vários tipos de pandeiros e caixas de folia, instrumentos fundamentais da música tradicional local." },
-      { quando: "Sábado · 14h às 18h", tema: "Técnica de Couros", texto: "Tensão, timbres e modos de afinação dos instrumentos de couro na tradição." },
+      { quando: "Sábado · 8h às 12h", tema: "Prática de Pandeiros e Caixas de Folia", texto: "Os vários tipos de pandeiros e caixas de folia, instrumentos musicais fundamentais da música tradicional local." },
+      { quando: "Sábado · 14h às 18h", tema: "Técnica de Couros", texto: "Tensão, timbres e modos de afinação dos instrumentos musicais de couro na tradição." },
       { quando: "Domingo · 9h às 13h", tema: "Pontes Rítmicas", texto: "A tradição oral dos quintais culturais e a transmissão de saberes entre gerações." },
     ],
     publico: "Artistas, agentes culturais e membros de grupos de música, dança e cultura popular; comunidades quilombolas, indígenas ou tradicionais; estudantes e professores de música, dança e artes.",
@@ -217,7 +217,7 @@ const MODULOS = [
       "Da história à roda: a origem africana do samba de roda, sua evolução, sua importância social no Brasil e sua chegada a Goiás, vividas na prática com os guardiões da Serrinha.",
     turnos: [
       { quando: "Sexta · 19h às 22h", tema: "Introdução", texto: "Origem e evolução do samba de roda, a influência africana e sua importância como patrimônio cultural imaterial." },
-      { quando: "Sábado · 8h às 12h", tema: "Prática I", texto: "Técnicas de percussão em instrumentos típicos: pandeiro, atabaque e ganzá." },
+      { quando: "Sábado · 8h às 12h", tema: "Prática I", texto: "Técnicas de percussão em instrumentos musicais típicos: pandeiro, atabaque e ganzá." },
       { quando: "Sábado · 14h às 18h", tema: "Prática II", texto: "Habilidades coreográficas e improvisação, com os movimentos e gestos característicos." },
       { quando: "Domingo · 9h às 13h", tema: "Prática III", texto: "Roda prática integrando percussão, canto, coreografia e improvisação." },
     ],
