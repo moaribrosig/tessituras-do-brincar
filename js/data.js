@@ -97,7 +97,7 @@ const DOCENTES = {
     instagram: "djkarlakarajazz",
     resumo: "Produtora de eventos há 20 anos",
     bio: "Produtora de eventos com 20 anos de experiência na área cultural, atuando no planejamento, na logística e na estruturação de projetos artísticos.",
-    foto: "",
+    foto: "assets/img/docentes/karla.webp",
   },
 };
 
