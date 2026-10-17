@@ -1037,14 +1037,6 @@ a {
   background: #fdece1;
 }
 
-.rodape__parceiros {
-  margin: 0 auto 14px;
-  text-align: center;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--tinta);
-}
-
 .rodape__regua img {
   display: block;
   width: min(100%, var(--largura));
