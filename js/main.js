@@ -318,4 +318,11 @@
   iniciarParallax();
   iniciarTopo();
   iniciarRevelar();
+
+  // Links de anúncio do tipo .../#modulo-2 apontam para um módulo que só existe
+  // depois de renderModulos(); rola até ele quando a página termina de montar.
+  if (location.hash && location.hash.length > 1) {
+    const destino = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (destino) setTimeout(() => destino.scrollIntoView(), 60);
+  }
 })();
