@@ -1030,6 +1030,48 @@ a {
   margin: 0 0 8px;
 }
 
+.rodape .rodape__privacidade {
+  margin: 40px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(250, 234, 223, 0.18);
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.rodape__privacidade a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Página de texto (política de privacidade) */
+.pagina-texto .secao {
+  padding-top: calc(var(--altura-topo) + 60px);
+}
+
+.texto-legal h2 {
+  margin: 36px 0 10px;
+  font-family: var(--fonte-titulo);
+  font-size: 1.45rem;
+  color: var(--azul);
+}
+
+.texto-legal p,
+.texto-legal li {
+  line-height: 1.65;
+}
+
+.texto-legal ul {
+  padding-left: 22px;
+}
+
+.texto-legal li {
+  margin-bottom: 8px;
+}
+
+.texto-legal .botao {
+  margin-top: 30px;
+}
+
 /* Régua de logos na versão colorida, sobre o mesmo creme do arquivo do designer */
 .rodape__regua {
   margin-top: 56px;
