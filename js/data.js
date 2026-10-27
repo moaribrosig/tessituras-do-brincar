@@ -17,6 +17,8 @@ const CONFIG = {
   // Se ficar vazio, o botão flutuante abre o direct do Instagram.
   whatsapp: "556282813313",
   whatsappExibicao: "(62) 8281-3313",
+  // ID do Pixel do Meta (só números). Vazio = rastreamento desligado. Nunca colocar aqui o token da API de Conversões.
+  metaPixel: "",
   whatsappMessage: "Olá! Quero saber mais sobre o Tessituras do Brincar.",
   endereco: "Rua Pará, qd. 09, APM 4, Residencial Santa Bárbara, Alto do Bonfim, Pirenópolis/GO",
 };

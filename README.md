@@ -47,7 +47,13 @@ O campo `whatsappGrupo` de cada módulo está vazio de propósito: pelo Forms, s
 
 ## Depois de editar CSS ou JS
 
-No `index.html`, aumente o número de versão (`?v=16` → `?v=17`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+No `index.html`, aumente o número de versão (`?v=18` → `?v=19`) nas linhas do `style.css`, do `data.js` e do `main.js`. Sem isso, quem já visitou o site pode continuar vendo a versão antiga guardada no navegador.
+
+## Rastreamento (Meta Pixel)
+
+O arquivo `js/rastreamento.js` envia os eventos para o Pixel do Meta. Ele só liga quando `CONFIG.metaPixel` (em `js/data.js`) tem o ID do Pixel. A lista de eventos está no começo do arquivo. Para conferir sem Pixel, abra o site com `?debug_pixel=1` e veja o console do navegador.
+
+O token da API de Conversões é secreto e **não vai no site** (o site é público). Se um dia usarmos a API de Conversões, ela precisa de um servidor à parte.
 
 ## Ver localmente
 
